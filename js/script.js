@@ -9,3 +9,10 @@ $(document).keypress(function (e) {
 		e.preventDefault();
 	}
 });
+
+$(document).keydown(function (e) {
+	if (e.keyCode === 38) { /* up */
+		//var latestPosition = ...;
+		//var currentPosition = ...;
+	}
+});
