@@ -32,7 +32,7 @@ body > * {
 	width: 26%; /* См. игру "Червы" в Windows 7 */
 	min-height: 1.0rem;
 	padding: 0.5rem;
-	word-break: break-all;
+	word-break: keep-all;
 }
 
 .p:focus {
@@ -41,12 +41,14 @@ body > * {
 
 .left-panel {
 	max-width: 1cm;
+	min-width: 1cm;
 	background-color: white;
 	border-right: 0.01cm solid silver;
 }
 
 .right-panel {
 	max-width: 1cm;
+	min-width: 1cm;
 	background-color: white;
 	border-left: 0.01cm solid silver;
 }
