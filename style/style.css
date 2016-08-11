@@ -41,12 +41,14 @@ body > * {
 
 .left-panel {
 	max-width: 1cm;
+	min-width: 1cm;
 	background-color: white;
 	border-right: 0.01cm solid silver;
 }
 
 .right-panel {
 	max-width: 1cm;
+	min-width: 1cm;
 	background-color: white;
 	border-left: 0.01cm solid silver;
 }
