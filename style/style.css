@@ -34,7 +34,6 @@ body > * {
 	width: 26%; /* См. игру "Червы" в Windows 7 */
 	min-height: 1.0rem;
 	padding: 0.5rem;
-	word-wrap: break-word;
 }
 
 .p:focus {
