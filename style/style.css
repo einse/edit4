@@ -41,6 +41,10 @@ body > * {
 	background-color: skyblue;
 }
 
+.p-initial:focus {
+	background-color: white;
+}
+
 .left-panel {
 	max-width: 1cm;
 	min-width: 1cm;
