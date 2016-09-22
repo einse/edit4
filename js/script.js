@@ -1,4 +1,4 @@
-const removeTheIntro = function () {
+function removeTheIntro() {
 	$("#intro").remove();
 };
 
